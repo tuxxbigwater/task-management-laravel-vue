@@ -1,0 +1,27 @@
+html, body {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100vw;
+  height: 100vh;
+  background: #2c2c2c;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+#app {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.container {
+  width: 70%;
+  min-width: 450px;
+}
+
+.hr {
+  background: #4f4f4f;
+  height: 2px;
+  border-radius: .5px;
+  margin-bottom: 20px;
+}
