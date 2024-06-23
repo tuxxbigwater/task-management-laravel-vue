@@ -4,7 +4,6 @@
 Ensure you have the following installed:
 
 - Docker
-- Docker Compose
 
 ### Clone the repository
 
@@ -46,8 +45,6 @@ docker run --rm \
   ./vendor/bin/sail up -d
 ```
 
-Your application should now be running on http://localhost.
-
 ### Install Node Dependencies
 ```sh
   ./vendor/bin/sail npm install --include=dev
@@ -70,11 +67,13 @@ In a separate terminal, run the Vite development server:
   ./vendor/bin/sail npm run dev
 ```
 
+Your application should now be running on http://localhost.
+
 ### Front-end Deployment
 Build the assets
 ```sh
   ./vendor/bin/sail npm run build
 ```
 
-Now you can turn off your Vite development server, and you can still access your Vue application.
+Now, even if you turn off your Vite development server, you can still access your Vue application.
 
