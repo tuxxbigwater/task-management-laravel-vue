@@ -1,5 +1,7 @@
 # Simple Task Management using Laravel and VueJS
 
+![Sample Image](./screenshots/1.png)
+
 ### Prerequisites
 Ensure you have the following installed:
 
